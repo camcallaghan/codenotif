@@ -1,5 +1,5 @@
 class ReviewsController < ApplicationController
 	def index
-		@review = Review.first("RANDOM()").first
+		@review = Review.order("RANDOM()").first
 	end
 end
