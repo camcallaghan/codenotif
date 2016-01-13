@@ -1,4 +1,4 @@
-class ReviewController < ApplicationController
+class ReviewsController < ApplicationController
 	def index
 		@review = Review.order("RANDOM()").first
 	end
