@@ -7,4 +7,14 @@ class ReviewsController < ApplicationController
 		@review = Review.new
 	end
 
+	def create
+		Review.create(review_params)
+		redirect_to root_path
+	end
+
+	private
+
+  def review_params
+    params.require(:review).permit(:saying, :author)
+  end
 end

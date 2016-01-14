@@ -10,6 +10,7 @@
 
 	<header>
 	<div class="col-xs-3">
+	<%= link_to root_path, class: 'logo' do %>
 	<div class="circle">
         <br />
         <br />
@@ -17,6 +18,7 @@
         <br />
         <br />
       </div>
+      <% end %>
     </div>
 	
 
@@ -24,7 +26,7 @@
       Welcome to the latest in messaging technology.
     </div>
     <div class="col-xs-5 links">
-  <%= link_to 'Contribute', '#' %>
+  <%= link_to 'Contribute', new_review_path %>
   <%= link_to 'About', '#' %>
 </div>
 

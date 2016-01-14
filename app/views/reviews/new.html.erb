@@ -1,1 +1,7 @@
 <h1>Enter Your Review here</h1>
+<%= simple_form_for @review do |f| %>
+  <%= f.input :saying %>
+  <%= f.input :author %>
+  <br />
+  <%= f.submit 'Submit', class: 'btn btn-danger' %>
+<% end %>
