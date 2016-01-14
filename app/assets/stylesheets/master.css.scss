@@ -7,12 +7,17 @@ body {
 }
 
 h1 {
-	padding:5px;
-	color: green;
-	font-size: 42px;
-	font-family: "Verdana";
-	font-weight:Bold
-	}
+  font-family: 'cantarellbold', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  font-size:48px;
+}
+
+h2 {
+  font-family: 'cantarellbold', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
 
 p {
 	padding:10px;
@@ -59,6 +64,8 @@ p {
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'cantarellbold', sans-serif;
+  font-weight:bold;
 }
 
 header {
